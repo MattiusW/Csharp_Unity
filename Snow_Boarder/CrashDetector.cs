@@ -9,7 +9,11 @@ public class CrashDetector : MonoBehaviour
     {
         if(other.tag == "Ground")
         {
-            SceneManager.LoadScene(0);
+            Invoke("CrashDetection", 1f); //Delay 1s
         }
+    }
+    void CrashDetection()
+    {
+        SceneManager.LoadScene(0);
     }
 }
