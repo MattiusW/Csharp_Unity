@@ -14,5 +14,7 @@ public class Grid
         this.height = height;
 
         gridArray = new int[width, height];
+
+        Debug.Log(width + " " + height); //print to console new object gird
     }
 }
