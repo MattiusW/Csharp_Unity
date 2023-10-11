@@ -15,7 +15,7 @@ namespace Algorithms
             {
                 for (int j = 0; j < tab.Length; j++)
                 {
-                    if (tab[j] > tab[i]) //5
+                    if (tab[j] > tab[i]) 
                     {
                         int temp = tab[j];
                         tab[j] = tab[i];
